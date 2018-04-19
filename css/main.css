@@ -2,3 +2,38 @@ html {
   font-family: "Poiret One", cursive;
   font-family: "EB Garamond", serif;
 }
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+header {
+  background-color: #d0b7a5;
+  text-align: center;
+  font-family: "Poiret One", cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a:hover {
+  background-color: #738461;
+  color: #fff;
+}
+
+.sign-up {
+  background-color: #738461;
+  color: #fff;
+  border: none;
+}
+.poiret {
+  font-family: "Poiret One", cursive;
+}
