@@ -15,16 +15,13 @@ header {
   font-family: "Poiret One", cursive;
 }
 
-a {
+.nav-hov,
+h1 {
   text-decoration: none;
   color: #000;
 }
 
-ul {
-  list-style-type: none;
-}
-
-a:hover {
+.nav-hov:hover {
   background-color: #738461;
   color: #fff;
 }
@@ -36,4 +33,9 @@ a:hover {
 }
 .poiret {
   font-family: "Poiret One", cursive;
+}
+
+.card {
+  background-color: #C2B4B8;
+  color: #000;
 }
