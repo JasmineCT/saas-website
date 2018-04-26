@@ -11,24 +11,34 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700|Poiret+One" rel="stylesheet">
   </head>
 
-  <header class="grid grid-middle">
-    <div class="unit xs-1 s-1 m-1-3 l-1-3">
-      <h1 class="peta pad-t-1-2 pad-1-2"><a href="index.html" class="nav-hov">Zoom</a></h1>
-    </div>
-    <nav class="unit xs-1 s-1 m-2-3 l-2-3">
-      <ul class="list-group">
-        <li><a href="pricing.html" class="nav-hov island-1-2">Prices</a></li>
-        <li><a href="tour.html" class="nav-hov island-1-2">Help</a></li>
-        <li><a href="sign-up.html" class="nav-hov island-1-2">Sign Up</a></li>
-      </ul>
-    </nav>
-  </header>
-
   <body>
+    <header class="grid grid-middle">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3">
+        <h1 class="peta pad-t-1-2 pad-1-2">Zoom</h1>
+      </div>
+      <nav class="unit xs-1 s-1 m-2-3 l-2-3">
+        <ul class="list-group">
+          <li><a href="index.html" class="nav-hov island-1-2">Home</a></li>
+          <li><a href="pricing.html" class="nav-hov island-1-2">Prices</a></li>
+          <li><a href="tour.html" class="nav-hov island-1-2">Help</a></li>
+          <li><a href="sign-up.html" class="nav-hov island-1-2">Sign Up</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="relative embed embed-4by3 text-center">
+      <img class="img-flex embed-item" src="images/business-cell.jpg" alt="An image of a cell phone next to a pad of paper" aria-details="paper">
+      <div class="absolute pin-c pad-t-2 pad-b-2 text-center">
+        <div class="wrapper gutter-1-2">
+          <h2 class="poiret tera pad-t-2 island-1-4">Frequently Asked Questions</h2>
+          <a href="sign-up.html" class="btn sign-up gutter-1-2">Sign Up, It's Free</a>
+        </div>
+      </div>
+    </div>
+
     <div class="grid text-center">
       <div class="unit xs-1 s-1 m-1 l-1">
-        <h2 class="poiret tera pad-t-2">Frequently Asked Questions</h2>
-        <section class="mega">The following are pull down menu’s to some of the most common questions or problems users come across.<br>If not listed <a href="#">call support</a></section>
+        <section class="mega push">The following are pull down menu’s to some of the most common questions or problems users come across. If not listed <a href="#">call support</a></section>
         <ul>
           <li>Getting Started On PC and Mac</li>
           <li>How Do I Find My Recording?</li>
@@ -94,49 +104,45 @@
             <label for="comments">Additional Information</label>
             <textarea id="comments" name="comments"></textarea>
           </div>
+
           <div class="pad-t-2 text-center">
             <div class="inline">
               <a href="sign-up.html" class="btn sign-up" type="submit">Submit</a>
             </div>
-            <div class="inline">
-              <a href="sign-up.html" class="btn sign-up" type="call">Call Support</a>
-            </div>
-            <div class="inline">
-              <a href="sign-up.html" class="btn sign-up" type="chat">Chat Online</a>
-            </div>
           </div>
+          <input type="hidden" name="subject" value="Question Submission">
         </form>
       </div>
     </div>
+    <footer role="contentinfo">
+      <div class="grid island-2">
+        <div class="unit xs-1 s-1 m-1 l-1-4">
+          <h3 class="mega">Sales</h3>
+          <ul class="kilo gutter-1-2">
+            <li>1-888-799-9666</li>
+          </ul>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1-4">
+          <h3 class="mega">Support</h3>
+          <ul class="kilo gutter-1-2">
+            <li>Support Center</li>
+            <li>Feedback</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1-4">
+          <h3 class="mega">Language</h3>
+          <ul class="kilo gutter-1-2">
+            <li>English</li>
+          </ul>
+        </div>
+        <div class="unit xs-1 s-1 m-1 l-1-4">
+          <h3 class="mega">Currency</h3>
+          <ul class="kilo gutter-1-2">
+            <li>U.S. Dollars</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
-  <footer>
-    <div class="grid island-2">
-      <div class="unit xs-1 s-1 m-1 l-1-4">
-        <h4 class="mega">Sales</h4>
-        <ul class="kilo gutter-1-2">
-          <li>1-888-799-9666</li>
-        </ul>
-      </div>
-      <div class="unit xs-1 s-1 m-1 l-1-4">
-        <h4 class="mega">Support</h4>
-        <ul class="kilo gutter-1-2">
-          <li>Support Center</li>
-          <li>Feedback</li>
-          <li>Contact Us</li>
-        </ul>
-      </div>
-      <div class="unit xs-1 s-1 m-1 l-1-4">
-        <h4 class="mega">Language</h4>
-        <ul class="kilo gutter-1-2">
-          <li>English</li>
-        </ul>
-      </div>
-      <div class="unit xs-1 s-1 m-1 l-1-4">
-        <h4 class="mega">Currency</h4>
-        <ul class="kilo gutter-1-2">
-          <li>U.S. Dollars</li>
-        </ul>
-      </div>
-    </div>
-  </footer>
 </html>
