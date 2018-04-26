@@ -31,8 +31,8 @@ h1 {
   color: #fff;
   border: none;
 }
+
 .sign-up a:hover {
-  background-color: #b26f29;
   color: #fff;
 }
 
@@ -41,7 +41,7 @@ h1 {
 }
 
 .card {
-  background-color: #C2B4B8;
+  background-color: #c2b4b8;
   color: #000;
 }
 
@@ -51,6 +51,24 @@ footer {
 
 table {
   min-width: 50em;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .wake {
+    font-size: 2em;
+    line-height: 1.2;
+  }
+
+}
+
+@media only screen and (min-width: 30em) {
+
+  .wake {
+    font-size: 4.5em;
+    line-height: 1.2;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {

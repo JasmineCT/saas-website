@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700|Poiret+One" rel="stylesheet">
   </head>
 
-  <body role="body" id="body" tabindex="0">
+  <body>
     <header class="grid grid-middle">
       <div class="unit xs-1 s-1 m-1-3 l-1-3">
         <h1 class="peta pad-t-1-2 pad-1-2"><a href="index.html" class="nav-hov">Zoom</a></h1>
@@ -26,16 +26,17 @@
     </header>
 
     <div class="relative embed embed-4by3 text-center">
-      <img class="img-flex embed-item" src="images/banner.jpg" alt="An image of a loptop with e great view of candian water">
-    </div>
+      <img class="img-flex embed-item" src="images/banner.jpg" alt="An image of a loptop with e great view of candian water" aria-details="Laptop">
       <div class="absolute pin-cb pad-t-2 pad-b-2 text-center">
         <div class="wrapper gutter-1-2">
-          <h2 id="banner" class="poiret peta push-0">Wake up Anywhere,<br> Chat Anywhere</h2>
-          <button class="btn sign-up gutter-1-2"><a href="sign-up.html">Sign Up, It's Free</a></button>
+          <h2 id="banner" class="poiret wake peta">Wake up Anywhere,<br> Chat Anywhere</h2>
+          <a href="sign-up.html" class="btn sign-up gutter-1-2">Sign Up, It's Free</a>
         </div>
       </div>
+    </div>
 
-    <main class="text-center">
+
+    <main class="text-center" role="main" id="main" tabindex="0">
       <div class="gird">
         <div class="unit xs-1 s-1 m-1 l-1">
           <h2 class="poiret tera pad-t-2 pad-b-1-2">About</h2>
@@ -47,10 +48,10 @@
       <div class="grid island-1-2">
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-4 push-2 gutter-1-2 card">
           <div class="card island-1-2">
-            <ol class="list-group gutter-2">
+            <ol class="list-group">
               <li class="list-group-item">
                 <a href="#" class="icon-link">
-                  <img class="icon pad-t-1-2" src="images/world.svg" alt="icon of world">
+                  <img class="icon pad-t-1-2" src="images/world.svg" alt="icon of world" aria-details="women">
                   <i class="icon"></i>
                   <span class="icon-label"></span>
                   <p class="pad-t-1-2">One consistent enterprise experience for all use cases</p>
@@ -102,10 +103,10 @@
           </div>
         </div>
       </div>
-      <img class="img-flex" src="images/video.jpg" atl="">
+      <img class="img-flex" src="images/video.jpg" alt="This is an interview of a women who has used Zoom for her small business">
       <!--One consistent enterpise experience -->
 
-      <h2 class="poiret tera pad-t-2">One consistent enterprise experience<h2>
+      <h2 class="poiret tera pad-t-2">One consistent enterprise experience</h2>
         <div class="grid">
           <div class="unit xs-1 s-1 m-1 l-1-3 island-1-2">
           <img src="images/elearning.svg" alt="">
@@ -151,12 +152,13 @@
         </div>
       </div>
         <!--Buttons -->
-      <div>
-        <button class="btn mega sign-up gutter-1-2"><a href="tour.html">Request Demo</a></button>
-        <button class="btn mega sign-up gutter-1-2"><a href="prices.html">Buy Now</a></button>
+      <div class="push">
+        <a href="tour.html" class="btn mega sign-up gutter-1-2">Request Demo</a>
+        <a href="pricing.html" class="btn mega sign-up gutter-1-2">Buy Now</a>
       </div>
     </main>
   </body>
+
   <footer>
     <div class="grid island-2">
       <div class="unit xs-1 s-1 m-1 l-1-4">
