@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>F.A.Q</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="css/modules.css" rel="stylesheet">
-    <link href="css/grid.css" rel="stylesheet">
-    <link href="css/type.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700|Poiret+One" rel="stylesheet">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>F.A.Q</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,400i,700|Poiret+One" rel="stylesheet">
+</head>
 
-  <body>
-    <ul class="skip-links">
-      <li><a href="#nav"> Jump to Navigation</a></li>
-      <li><a href="#fomr"> Jump to From</a></li>
-    </ul>
+<body>
+  <ul class="skip-links">
+    <li><a href="#nav"> Jump to Navigation</a></li>
+    <li><a href="#from"> Jump to From</a></li>
+    <li><a href="#main"> Jump to main content</a></li>
+  </ul>
 
-    <header class="grid grid-middle">
-      <div class="unit xs-1 s-1 m-1-3 l-1-3">
-        <h1 class="peta pad-t-1-2 pad-1-2">Zoom</h1>
-      </div>
-      <nav class="unit xs-1 s-1 m-2-3 l-2-3"  id="nav" tabindex="0" role="navigation">
-        <ul class="list-group">
-          <li><a href="index.html" class="nav-hov island-1-2">Home</a></li>
-          <li><a href="pricing.html" class="nav-hov island-1-2">Prices</a></li>
-          <li><a href="tour.html" class="nav-hov island-1-2">Help</a></li>
-          <li><a href="sign-up.html" class="nav-hov island-1-2">Sign Up</a></li>
-        </ul>
-      </nav>
-    </header>
+  <header class="grid grid-middle" role="banner">
+    <div class="unit xs-1 s-1 m-1-3 l-1-3">
+      <h1 class="peta pad-t-1-2 pad-1-2">Zoom</h1>
+    </div>
+    <nav class="unit xs-1 s-1 m-2-3 l-2-3" id="nav" tabindex="0" role="navigation">
+      <ul class="list-group">
+        <li><a href="index.html" class="nav-hov island-1-2">Home</a></li>
+        <li><a href="pricing.html" class="nav-hov island-1-2">Prices</a></li>
+        <li><a href="tour.html" class="nav-hov island-1-2">Help</a></li>
+        <li><a href="sign-up.html" class="nav-hov island-1-2">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main class="text-center" role="main" id="main" tabindex="0">
     <div class="relative embed embed-4by3 text-center">
       <img class="img-flex embed-item" src="images/business-cell.jpg" alt="An image of a cell phone next to a pad of paper">
       <div class="absolute pin-c pad-t-2 pad-b-2 text-center">
@@ -40,27 +42,43 @@
         </div>
       </div>
     </div>
+    <section>All of your questions can also be answered through our live chat rooms, or with our 24/7 call center</section>
 
     <div class="grid text-center">
       <div class="unit xs-1 s-1 m-1 l-1">
-        <section class="mega push">The following are pull down menu’s to some of the most common questions or problems users come across. If not listed <a href="#">call support</a></section>
-        <ul>
-          <li>Getting Started On PC and Mac</li>
-          <li>How Do I Find My Recording?</li>
-          <li>Where Do I Download The Latest Version?</li>
-          <li>How Do I Join A Meeting?</li>
-          <li>How Do I Join My Computer Audio?</li>
-          <li>My Video/Camera Isn’t Working</li>
-          <li>How Do I Share My Screen?<li>
-          <li>How Do I Schedule Meetings?</li>
-          <li>How Do I Invite Others to Join?</li>
-        </ul>
+        <table class="push-0 unit xs-1 s-1 m-1 l-1 gutter-2">
+          <caption class="mega text-center normal pad-t-1-2">Zooms Top Questions</caption>
+          <thead>
+            <tr>
+              <th scope="col">Questions</th>
+              <th scope="col">Answers</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="not-bold italic" scope="row">Getting Started On PC and Mac</th>
+              <td>The set up is derrent fro either a Mac or a PC. Just go to sign up, and once you have sign-up you may download zoom to your computer or just use the online servcies.</td>
+            </tr>
+
+            <tr>
+              <th class="not-bold italic" scope="row">How Do I Find My Recording?</th>
+              <td>When you create your profile, you have storrage in your account that records all your meetings for you. It will be located under my meetings.</td>
+            </tr>
+          </tbody>
+          <tfoot class="bold">
+            <tr>
+              <th scope="row">Want An Account</th>
+              <td><a href="sign-up.html" class="btn sign-up">Sign Up, It's Free</a></td>
+            </tr>
+          </tfoot>
+        </table>
+
       </div>
     </div>
     <div class="grid island-1-2">
       <div class="unit xs-1 s-1 m-1 l-1">
         <h2 class="poiret tera text-center pad-t-2">Contact Us</h2>
-        <p class="text-center">Enter Information<p>
+        <p class="text-center">Enter Information</p>
         <form class="push-0" method="POST" action="https://formspree.io/jsdesign.ct@gmail.com" role="form" id="from" tabindex="0">
           <div class="push">
             <label for="email">Work email</label>
@@ -81,31 +99,31 @@
           <div class="push">
             <label for="country">Country</label>
             <select id="country" name="country">
-              <option value="">Select Country<option>
-              <option value="united-states">United States</option>
-              <option value="canada">Canada</option>
+              <option>Select Country</option>
+              <option>United States</option>
+              <option>Canada</option>
             </select>
           </div>
           <div>
-              <label for="province">Province/State</label>
-              <select id="province" name="_subject">
-                <option value="13">Select a province</option>
-                <option>Alberta</option>
-                <option>British Columbia</option>
-                <option>Manitoba</option>
-                <option>New Brunswick</option>
-                <option>Newfoundland & Labrador</option>
-                <option>Northwest Territories</option>
-                <option>Nova Scotia</option>
-                <option>Nunavut</option>
-                <option>Ontario</option>
-                <option>Prince Edward Island</option>
-                <option>Québec</option>
-                <option>Saskatchewan</option>
-                <option>Yukon</option>
-              </select>
-            </div>
-            <div>
+            <label for="province">Province/State</label>
+            <select id="province" name="_subject">
+              <option value="13">Select a province</option>
+              <option>Alberta</option>
+              <option>British Columbia</option>
+              <option>Manitoba</option>
+              <option>New Brunswick</option>
+              <option>Newfoundland & Labrador</option>
+              <option>Northwest Territories</option>
+              <option>Nova Scotia</option>
+              <option>Nunavut</option>
+              <option>Ontario</option>
+              <option>Prince Edward Island</option>
+              <option>Québec</option>
+              <option>Saskatchewan</option>
+              <option>Yukon</option>
+            </select>
+          </div>
+          <div>
             <label for="comments">Additional Information</label>
             <textarea id="comments" name="comments"></textarea>
           </div>
@@ -119,35 +137,36 @@
         </form>
       </div>
     </div>
-    <footer role="contentinfo">
-      <div class="grid island-2">
-        <div class="unit xs-1 s-1 m-1 l-1-4">
-          <h3 class="mega">Sales</h3>
-          <ul class="kilo gutter-1-2">
-            <li>1-888-799-9666</li>
-          </ul>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1-4">
-          <h3 class="mega">Support</h3>
-          <ul class="kilo gutter-1-2">
-            <li>Support Center</li>
-            <li>Feedback</li>
-            <li>Contact Us</li>
-          </ul>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1-4">
-          <h3 class="mega">Language</h3>
-          <ul class="kilo gutter-1-2">
-            <li>English</li>
-          </ul>
-        </div>
-        <div class="unit xs-1 s-1 m-1 l-1-4">
-          <h3 class="mega">Currency</h3>
-          <ul class="kilo gutter-1-2">
-            <li>U.S. Dollars</li>
-          </ul>
-        </div>
+  </main>
+  <footer role="contentinfo">
+    <div class="grid island-2">
+      <div class="unit xs-1 s-1 m-1 l-1-4">
+        <h3 class="mega">Sales</h3>
+        <ul class="kilo gutter-1-2">
+          <li>1-888-799-9666</li>
+        </ul>
       </div>
-    </footer>
-  </body>
+      <div class="unit xs-1 s-1 m-1 l-1-4">
+        <h3 class="mega">Support</h3>
+        <ul class="kilo gutter-1-2">
+          <li>Support Center</li>
+          <li>Feedback</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-4">
+        <h3 class="mega">Language</h3>
+        <ul class="kilo gutter-1-2">
+          <li>English</li>
+        </ul>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1-4">
+        <h3 class="mega">Currency</h3>
+        <ul class="kilo gutter-1-2">
+          <li>U.S. Dollars</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
 </html>
